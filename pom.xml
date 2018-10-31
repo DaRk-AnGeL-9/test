@@ -1,0 +1,53 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.test.redis</groupId>
+  <artifactId>LettuceTest</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>LettuceTest</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>lettuce</groupId>
+      <artifactId>lettuce-core</artifactId>
+      <scope>system</scope>
+      <version>5.0.4</version>
+      <systemPath>C:\Users\729344\eclipse_project\LettuceTest\src\main\resources\lettuce-core-5.0.4.RELEASE.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>netty</groupId>
+      <artifactId>io-netty</artifactId>
+      <scope>system</scope>
+      <version>4.1.29</version>
+      <systemPath>C:\Users\729344\eclipse_project\LettuceTest\src\main\resources\netty-all-4.1.29.Final.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>io.reactor</groupId>
+      <artifactId>reactor-test</artifactId>
+      <scope>system</scope>
+      <version>3.1.8</version>
+      <systemPath>C:\Users\729344\eclipse_project\LettuceTest\src\main\resources\reactor-core-3.1.8.RELEASE.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>org.readtive</groupId>
+      <artifactId>reactive-streams</artifactId>
+      <scope>system</scope>
+      <version>1.0.2</version>
+      <systemPath>C:\Users\729344\eclipse_project\LettuceTest\src\main\resources\reactive-streams-1.0.2.jar</systemPath>
+    </dependency>
+  </dependencies>
+</project>
